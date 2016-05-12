@@ -17,11 +17,23 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If experimenting or two different versions are desired
+
 How do the diagrams help you visualize the branch structure?
+
+	you can see where everything connects
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	changes are compared and additions and delitions (with respect to 
+	the commit they both branched from) are introduced in a common file
+	this file has two parents and all commits in both branches are 
+	reachable from here
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	pro: saves time
+	con: I dont know it seems awesome
+
 
